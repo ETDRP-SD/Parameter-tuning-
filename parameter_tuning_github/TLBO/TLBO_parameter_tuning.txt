@@ -1,0 +1,15 @@
+TLBO Parameter Tuning Data
+
+This file describes the parameter configurations evaluated during the preliminary tuning of the TLBO baseline.
+
+Source data
+
+The corresponding Excel file contains the Δ% values obtained for each candidate parameter setting. Lower Δ% indicates better solution quality.
+
+Parameters evaluated
+
+Parameter tuning was limited to the TLBO-specific parameters, namely the teaching factor and population size.
+
+Np    Population size.
+TF     Teaching factor.
+

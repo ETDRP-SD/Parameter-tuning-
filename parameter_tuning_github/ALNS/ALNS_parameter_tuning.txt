@@ -1,0 +1,20 @@
+ALNS Parameter Tuning Data
+
+This file describes the parameter configurations evaluated during the preliminary tuning of the ALNS baseline.
+
+Source data
+
+The corresponding Excel file contains the Δ% values obtained for each candidate parameter setting. Lower Δ% indicates better solution quality.
+
+Parameters evaluated
+
+The ALNS baseline was calibrated with respect to eight parameters that govern operator selection and the Shaw removal operator: 
+
+σ2   Score assigned when a better solution than the current solution is obtained.
+Ns   Number of iterations between two consecutive updates of operator-selection scores.
+σ1   Score assigned when a new global-best solution is obtained.
+σ3   Score assigned when a worse solution is accepted.
+Φ1  Weight associated with the route-related criterion in the Shaw removal operator
+Φ2  Weight associated with the distance-related criterion in the Shaw removal operator
+Φ3  Weight associated with the time-related criterion in the Shaw removal operator
+Φ4 Weight associated with the demand-related criterion in the Shaw removal operator

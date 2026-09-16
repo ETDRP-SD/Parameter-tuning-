@@ -1,0 +1,15 @@
+IALNS-GA Parameter Tuning Data
+
+This file describes the parameter configurations evaluated during the preliminary tuning of the IALNS-GA baseline.
+
+Source data
+
+The corresponding Excel file contains the Δ% values obtained for each candidate parameter setting. Lower Δ% indicates better solution quality.
+
+Parameters evaluated
+
+The IALNS-GA baseline uses the same IALNS parameter settings as IALNS-LS. Parameter tuning was therefore limited to the GA-specific parameters, namely the crossover probability, mutation probability, and number of GA generations.: 
+
+pc     Crossover probability.
+pm    Mutation probability.
+Nga  Number of GA generations.
